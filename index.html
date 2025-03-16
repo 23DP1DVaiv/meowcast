@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MeowCast</title>
+    <link rel="stylesheet" href="src\css\style.css">
+</head>
+<body>
+    <nav>
+        <img src="src\images\logo.png" alt="Logo" class="logo">
+        <ul>
+            <li><a href="#home">Sākums</a></li>
+            <li><a href="#weather">Laikapstākļi</a></li>
+            <li><a href="#catfact">Kaķu fakti</a></li>
+            <li><a href="#contacts">Kontakti</a></li>
+        </ul>
+    </nav>
+    
+
+
+    <section id="home">
+        <h1>Laipni lūdzam!</h1>
+        <p>Šajā vietnē jūs varat apskatīt aktuālos laikapstākļus Rīgā un uzzināt nejaušu interesantu faktu par kaķiem.</p>
+    </section>
+    
+
+    <section id="weather">
+    <main>
+        <h1>Laikapstākļi Rīgā</h1>
+        <div id="weather-container">
+            <img id="weather-icon" src="default.png" alt="Laikapstākļi">
+        </div>
+    </main>
+    <script src=".\js\weather.js"></script>
+</section>
+
+
+    <section id="catfact">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Kaķu fakts</title>
+    </head>
+    <body>
+        <h1>Kaķu fakts</h1>
+        <p id="fact">Ielādē...</p>
+        <button id="factButton">Jauns fakts</button>
+        <script src=".\js\catfact.js"></script>
+        </section>
+
+
+    <section id="contacts">
+        <h2>Kontakti</h2>
+        <p>E-pasts: A230765DV@rvt.lv</p>
+        <p>Telefons: +371 27138130</p>
+    </section>
+
+
+   
+    <footer>
+        <p>&copy; Deniss Vaivods 2025</p>
+    </footer>
+</body>
+</html>
